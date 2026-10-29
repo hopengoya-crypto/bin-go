@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - Bin Go Sacco</title>
+</head>
+<body>
+  <header>
+    <h1>Bin Go Sacco</h1>
+    <p>Gabbage collected once a week, along six designated routes of Ruiru.</p>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/routes.html">Our routes</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/register.html">Join</a>
+      <a href="/payments.html">Payments</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Make a Payment</h2>
+    <p>Welcome to the Bin Go Sacco payment page. You can make a payment using the form below.</p>
+
+    <form action="/submit-payment" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" step="0.01" required>
+      <label for="route">Route:</label>
+      <select id="route" name="route" required>
+        <option value="">Select a route</option>
+        <option value="kamiti">Kamiti route</option>
+        <option value="juja">Juja route</option>
+        <option value="ruiru">Ruiru route</option>
+        <option value="membly">Membly route</option>
+        <option value="githurai">Githurai route</option>
+        <option value="kiambu">Kiambu route</option>
+      </select>
+      <label for="phone"> Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="07XX XXX XXX" pattern="[0-9]{10}" required>
+      <button type="submit">Pay Now</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Bin Go Sacco, PO Box 3087, Ruiru.</p>
+    <p>Site built by The elementals, DBT Year 1, 2026.</p>
+  </footer>
+</body>
+</html>
