@@ -1,6 +1,6 @@
-background: #262626;
+
 /* House style — main #F7F3E8 ground #333 ink #1F6F3E accent #D8A22B */
-headings: "Source Serif 4", Georgia, serif; body: "Source Sans 3", system-ui, sans-serif; */
+headings "Source Serif 4", Georgia, serif; body: "Source Sans 3", system-ui, sans-serif; */
 * {
 box-sizing: border-box;
 }
